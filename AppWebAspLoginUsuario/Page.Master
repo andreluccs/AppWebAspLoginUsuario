@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="AppWebAspLoginUsuario.Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="StyleSheet.css">       
+     
+    <style>
+        body{
+              background-image: url('download22222.pngg'); /* Substitua 'background.jpg' pelo caminho para sua imagem de fundo */
+
+ 
+        }
+        .auto-style1 {
+            width: 346px;
+            height: 182px;
+            margin-left: 529px;
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="sidenav">
+       
+       &nbsp;<img src="Logomarca-Governo-Lula-2023-848x477.png" style="width: 144px" /><a href="Login.aspx">Entrar</a>
+  <a href="Register.aspx">Registro</a>
+  <a href="Dashboard.aspx">Dash Board</a>
+       <a href="configurações.aspx">Configuração</a>
+        <a href="Dashboard.aspx">Sair</a>
+</div>
+
+    <form id="form1" runat="server">
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    <img class="auto-style1" src="download22222.png" /></p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
